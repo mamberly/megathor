@@ -5,11 +5,9 @@
 
 .git-footer {
   text-align: center;
-  background-color: white;
   font-family: "Tahoma", "Arial", sans-serif;
   font-size: 30px;
 
-  width: 100%;
   bottom: 0%;
   margin: 0% 0%;
   position: fixed;
@@ -17,6 +15,7 @@
 
 .footer-link{
   color: #67595E !important;
+  font-size: 20px !important;
 }
 
 .bg-light {
@@ -116,7 +115,7 @@ h1 {
 
 .interests {
   width: auto;
-  padding-right: 10px;
+  padding: 15px;
 }
 
 /* Masonry on large screens */
