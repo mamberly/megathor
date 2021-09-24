@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel='stylesheet' href='/css/styles.css' />
+  <title>MegAThor Register</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/index.html"><img src="/images/megathor-logo.jpg" width=150px /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/info.html">Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/register.html">Register<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="master-container">
+    <div class="item">
+      Register now while space lasts!</div>
+    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+      <div class="row">
+        <div class="col">
+          <input type="text" id="name" name="name" class="form-control">
+          <label for="name" class="">Your name</label>
+        </div>
+        <div class="col">
+          <input type="text" id="email" name="email" class="form-control">
+          <label for="email" class="">Your email</label>
+        </div>
+      </div>
+      <div class = "item">
+        Interests
+
+      </div>
+      <div class="row">
+        <div class="col">
+          <input type="checkbox" id="crochet" name="crochet" value="crochet">
+          <label for="crochet"> Crochet</label><br>
+          <input type="checkbox" id="painting" name="painting" value="painting">
+          <label for="painting"> Painting</label><br>
+          <input type="checkbox" id="drawing" name="drawing" value="drawing">
+          <label for="drawing"> Drawing</label><br>
+          <input type="checkbox" id="writing" name="writing" value="writing">
+          <label for="writing"> Writing</label><br><br>
+        </div>
+        <div class="col">
+          <input type="checkbox" id="cnn" name="cnn" value="cnn">
+          <label for="cnn"> CNNs</label><br>
+          <input type="checkbox" id="perceptron" name="perceptron" value="perceptron">
+          <label for="perceptron"> Refactoring Perceptron Learning</label><br>
+          <input type="checkbox" id="visualizing" name="visualizing" value="visualizing">
+          <label for="visualizing"> Visualizing Data</label><br>
+          <input type="checkbox" id="classroom" name="classroom" value="classroom">
+          <label for="classroom"> ML for the classroom</label><br><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Register</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="git-footer">
+    <a href="https://github.com/mamberly/megathor" class="footer-link">Github Link</a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
